@@ -25,6 +25,13 @@ h1 {
   font-size: 52px;
   font-weight: bold; }
 
+#logo p {
+  float: left;
+  color: white;
+  font-size: 30px;
+  margin-top: 0;
+  margin-left: 15px; }
+
 .jumbotron {
   margin-bottom: 0px;
   background-image: url(https://pixabay.com/static/uploads/photo/2015/10/29/12/37/web-1012299__180.jpg);
@@ -84,7 +91,7 @@ a {
       width: auto;
       max-width: 960px; } }
   #main #content img {
-    margin-top: 130px; }
+    margin-top: 30px; }
   #main #content p {
     font-family: "Alegreya Sans", Arial, sans-serif;
     line-height: 1.3em;
@@ -117,11 +124,50 @@ a {
     left: 0;
     background-color: #A5F800; }
 
-#footer {
+footer {
   height: 90px;
   background-color: #57770a;
   text-align: center;
   height: 60px;
   padding: 10px; }
+
+#back-to-top {
+  position: fixed;
+  bottom: 29px;
+  right: 15px; }
+
+#back-to-top a {
+  color: #9babac; }
+
+@media (max-width: 1199px) {
+  .jumbotron h1 {
+    font-size: 40px;
+    margin-bottom: 20px; }
+  .jumbotron .slogan {
+    top: 65%;
+    transform: translateX(8%); } }
+@media (max-width: 991px) {
+  #oferta {
+    margin-top: 30px; } }
+@media (max-width: 767px) {
+  .jumbotron h1 {
+    font-size: 40px;
+    margin-bottom: 20px; }
+  .jumbotron .slogan {
+    top: 30%;
+    transform: translateX(8%); }
+
+  #header#main-menu a {
+    font-size: 30px; } }
+@media (max-width: 388px) {
+  .jumbotron h1 {
+    font-size: 40px;
+    margin-bottom: 20px; }
+  .jumbotron .slogan {
+    top: 30%;
+    transform: translateX(8%); }
+
+  #header#main-menu a {
+    font-size: 30px; } }
 
 /*# sourceMappingURL=style.css.map */

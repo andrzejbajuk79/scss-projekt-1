@@ -3,38 +3,37 @@
 	<head>
 		<meta charset="utf-8">
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
-		
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="./js/script.js"></script>
-		
 
-
+		<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+		    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		    <link rel="stylesheet" type="text/css" href="./css/style.css">
 		<title>Pierwsza strona</title>
 	</head>
 	<body>
-
 		<!-- Naglowek strony -->
 		<header id="header">
+			<div id="logo">
+				<p>LOGO</p>
+			</div>
+
 			<nav id="main-menu">
 				<ul>
-					<li><a href="index.html">Start</a></li>
-					<li><a href="index.html">Oferta</a></li>
-					<li><a href="index.html">Promocje</a></li>
-					<li><a href="index.html">Kontakt</a></li>
-				</ul>	
+					<li><a href="#kontakt">Kontakt</a></li>
+					<li><a href="#promo">Promocje</a></li>
+					<li><a href="#oferta">Oferta</a></li>
+					<li><a href="#start">Start</a></li>
+				</ul>	v
 			</nav>
-			<img src="http://placehold.it/150x40" id="logo" alt="brand">
+		
 		</header>
 
-		<div class="jumbotron">
+		<div class="jumbotron" id="start">
 			<div class='slogan'>
 		        <h1>Pellentesque venenatis </h1><br>
 		        <h2>ex in ligula lobortis </h2>
 	        </div>
    		 </div>
-
 		<!-- Banner -->
 		<div  class= "container" id="main">
 			<article id="content" class="general">
@@ -42,20 +41,16 @@
 				  <div class="media-left">
 				    <a href="#">
 				     <img src="https://pixabay.com/static/uploads/photo/2013/10/25/17/26/tree-200795__180.jpg" type="button" class="btn" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">
-				   
 				    </a>
-
 				  </div>
-				  <div class="media-body">
+				  <div class="media-body" id="promocja">
 				    <h2 class="media-heading">Media heading</h2>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#">Link1</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#">Link1</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. c
+				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#">Link1</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco e cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. c
 					</p>
-				  
 				  </div>
 				</div>
-					
 			</article>
-			<section id="info">
+			<section id="oferta">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6 col-md-3">
@@ -64,7 +59,6 @@
 						      <div class="caption">
 						        <h3>Thumbnail label</h3>
 						        <p>Lorem ipsum dolor sit amet</p>
-						       
 						      </div>
 						 	</div>
 						 </div>
@@ -74,7 +68,6 @@
 						      <div class="caption">
 						        <h3>Thumbnail label</h3>
 						        <p>Lorem ipsum dolor sit amet</p>
-						        
 						      </div>
 						 	</div>
 						 </div>
@@ -84,7 +77,6 @@
 						      <div class="caption">
 						        <h3>Thumbnail label</h3>
 						        <p>Lorem ipsum dolor sit amet</p>
-						        
 						      </div>
 						 	</div>
 						 </div>
@@ -94,7 +86,6 @@
 						      <div class="caption">
 						        <h3>Thumbnail label</h3>
 						        <p>Lorem ipsum dolor sit amet</p>
-						        
 						      </div>
 						 	</div>
 						 </div>
@@ -128,26 +119,24 @@
 				    <span class="sr-only">80% Complete (danger)</span>
 				  </div>
 				</div>
-
 				<h2>Lorem ipsum dolor sit amet</h2>
-				
 				<p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#">Link1</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</section>
+		</div>
+		<!-- Stopka strony -->
+		<footer id="kontakt">
+			<h4>copyright</h4>
 			
-			
+		</footer>
+		<div id="back-to-top">
+		<a href="#start"><i class="fa fa-3x fa-chevron-circle-up" aria-hidden="true"></i></a>
 		</div>
 
-		<!-- Stopka strony -->
-		<footer id="footer">
-			<h4>copyright</h4>
-		</footer>
 
-		
-	<script type="text/javascript">
-		$(function() {
-		  $('[data-toggle="popover"]').popover()
-		})
-	</script>
+		< <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	  	<script type="text/javascript" src="./js/script.js"></script>
 
 	</body>
 </html>
